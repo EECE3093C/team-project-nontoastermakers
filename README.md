@@ -24,7 +24,7 @@
 * DoorDash: DoorDash is another popular food delivery app that operates on many university campuses. They offer a variety of participating restaurants and quick delivery options.
 
 ### What is novel in your approach, that is why is this project compelling and worth developing?
-* One novel approach that could set your project apart is implementing a sustainable and eco-friendly delivery system. For example, you could use electric bicycles or electric scooters to transport the food to the different locations on campus. This would reduce the carbon footprint of your deliveries and appeal to environmentally conscious students.
+* One novel approach that could set your project apart is implementing a sustainable and eco-friendly delivery system. For example, you could use electric bicycles or electric scooters to transport the food to the different locations on campus. This would reduce the carbon footprint[^1] of your deliveries and appeal to environmentally conscious students.
 
 
 ```mermaid
@@ -39,4 +39,6 @@ flowchart LR
     Login/SignUp_Page --- Admin_page
     Login/SignUp_Page --- Menu
     Menu --- Order_Page
+ ```
     
+[^1]: [UC earns national recognition for reducing carbon footprint](https://www.uc.edu/news/articles/n20924695/uc-earns-national-recognition-for-decade-of-reducing-carbon-footprint.html)
