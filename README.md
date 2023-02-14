@@ -41,6 +41,11 @@ flowchart LR
     Login/SignUp_Page --- Menu
     Menu --- Order_Page
  ```
+## Challenges and Risks
+### What is the single most serious challenge you see in developing the product on schedule?
+* Designing the pipeline
+### How will you minimize or mitigate the risk?
+* Learn more and look at examples
     
 [^1]: [UC earns national recognition for reducing carbon footprint](https://www.uc.edu/news/articles/n20924695/uc-earns-national-recognition-for-decade-of-reducing-carbon-footprint.html)
 [^2]: [UC Dash](http://10.63.7.167/)
