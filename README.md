@@ -26,7 +26,8 @@
 ### What is novel in your approach, that is why is this project compelling and worth developing?
 * One novel approach that could set your project apart is implementing a sustainable and eco-friendly delivery system. For example, you could use electric bicycles or electric scooters to transport the food to the different locations on campus. This would reduce the carbon footprint[^1] of your deliveries and appeal to environmentally conscious students.
 
-
+## Software Architecture
+* We use the host (only accessible on UC Secure)[^2] to accessour website.
 ```mermaid
 
 flowchart LR
@@ -42,3 +43,4 @@ flowchart LR
  ```
     
 [^1]: [UC earns national recognition for reducing carbon footprint](https://www.uc.edu/news/articles/n20924695/uc-earns-national-recognition-for-decade-of-reducing-carbon-footprint.html)
+[^2]: [UC Dash](http://10.63.7.167/)
