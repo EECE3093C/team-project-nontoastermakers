@@ -27,7 +27,7 @@
 * One novel approach that could set your project apart is implementing a sustainable and eco-friendly delivery system. For example, you could use electric bicycles or electric scooters to transport the food to the different locations on campus. This would reduce the carbon footprint[^1] of your deliveries and appeal to environmentally conscious students.
 
 ## Software Architecture
-* We use the host (only accessible on UC Secure)[^2] to accessour website.
+* We use the [host](http://10.63.7.167/) (only accessible on UC Secure)[^2] to accessour website.
 ```mermaid
 
 flowchart LR
@@ -47,10 +47,16 @@ flowchart LR
 ## Challenges and Risks
 ### What is the single most serious challenge you see in developing the product on schedule?
 * Designing the pipeline
-### How will you minimize or mitigate the risk?
-* Learn more and look at examples
+* Real-time updates
+* Integration with Bearcat Card
 
-[Presentation.pptx](https://github.com/EECE3093C/team-project-nontoastermakers/files/10738013/Presentation.pptx)
+### How will you minimize or mitigate the risk?
+* Effective communication of front and back-end teams.
+* Regular testing between the front-end and back-end can help identify and resolve any issues that may arise.
+* Implement real-time monitoring such as monitoring of network activity, etc.
+
+
+[Presentation for UC Dash.pptx](https://github.com/EECE3093C/team-project-nontoastermakers/files/10738013/Presentation.pptx)
     
 [^1]: [UC earns national recognition for reducing carbon footprint](https://www.uc.edu/news/articles/n20924695/uc-earns-national-recognition-for-decade-of-reducing-carbon-footprint.html)
 [^2]: [UC Dash](http://10.63.7.167/)
