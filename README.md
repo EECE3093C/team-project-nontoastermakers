@@ -33,19 +33,25 @@
 flowchart LR
 
   
-    Back_End --- Data_Base
-    Back_End --- Login/SignUp_Page
-    Login/SignUp_Page --- SignUp_Page 
-    Back_End --- SignUp_Page
-    Login/SignUp_Page --- Admin_page
-    Login/SignUp_Page --- Menu
-    Menu --- Order_Page
+    Back_End <--> Data_Base
+    Back_End --> Login/SignUp_Page
+    Login/SignUp_Page --> SignUp_Page 
+    Back_End <--> SignUp_Page
+    Login/SignUp_Page --> Admin_page
+    Login/SignUp_Page --> Menu
+    Menu --> Order_Page
+    Menu --> Account_Summary
+    Order_Page --> Account_Summary
+    Order_Page --> Order_Placed
  ```
 ## Challenges and Risks
 ### What is the single most serious challenge you see in developing the product on schedule?
 * Designing the pipeline
 ### How will you minimize or mitigate the risk?
 * Learn more and look at examples
+
+[Presentation.pptx](https://github.com/EECE3093C/team-project-nontoastermakers/files/10738013/Presentation.pptx)
     
 [^1]: [UC earns national recognition for reducing carbon footprint](https://www.uc.edu/news/articles/n20924695/uc-earns-national-recognition-for-decade-of-reducing-carbon-footprint.html)
 [^2]: [UC Dash](http://10.63.7.167/)
+
