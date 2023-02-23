@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/62956430/219113442-0f0ddb3a-e7d4-40fe-9514-5a998bf450d8.gif" width="150" height="150">
 
 #### By [Non-Toaster Makers](https://github.com/EECE3093C/team-project-nontoastermakers) ####
-#### Members: [Evan Nimmo](https://www.linkedin.com/in/evan-nimmo/), [Mohammed Fawwaaz](https://www.linkedin.com/in/mfawwaaz/), [Om Gaikwad](https://www.linkedin.com/in/om-gaikwad/), [Muhib Khan](https://www.linkedin.com/in/muhibkhn/), [Mabon Manoj](https://www.linkedin.com/in/ninanmm/) ####
+#### Members: [Evan Nimmo](https://www.linkedin.com/in/evan-nimmo/), [Mohammed Fawwaaz](https://www.linkedin.com/in/mfawwaaz/), [Om Gaikwad](https://www.linkedin.com/in/om-gaikwad/), [Muhib Khan](https://www.linkedin.com/in/muhibkhn/), [Mabon Manoj - Project Manager](https://www.linkedin.com/in/ninanmm/) ####
 
 ## Vision
 ### What is our product (high-level view)?
