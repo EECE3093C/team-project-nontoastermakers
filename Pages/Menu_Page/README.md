@@ -1,1 +1,1 @@
-First draft of the menu page
+1. First draft of the menu page
