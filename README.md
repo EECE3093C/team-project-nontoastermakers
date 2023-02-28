@@ -1,4 +1,4 @@
-# Campus Dash 
+# UC Campus Dash 
 <img src="https://user-images.githubusercontent.com/62956430/219113442-0f0ddb3a-e7d4-40fe-9514-5a998bf450d8.gif" width="150" height="150">
 
 #### By [Non-Toaster Makers](https://github.com/EECE3093C/team-project-nontoastermakers) ####
