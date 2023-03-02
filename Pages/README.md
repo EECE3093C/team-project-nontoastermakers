@@ -25,6 +25,7 @@ The following pages are currently in development:
 * Signup_Page
 
 * Staff_Add_Item_Page
+
 Our team is committed to delivering high-quality pages that are user-friendly, easy to navigate, and visually appealing. We are working hard to ensure that our pages are optimized for various devices and platforms.
 
 ### Future Updates
