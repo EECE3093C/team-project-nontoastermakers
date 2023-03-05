@@ -1,3 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif, sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #ff0000;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
 .row {
 	display: -ms-flexbox; /* IE10 */
 	display: flex;
@@ -83,3 +117,9 @@
 	  margin-bottom: 20px;
 	}
   }
+  
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+}
