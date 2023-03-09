@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html><head>
+    <title>Campus Dash</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="logo.gif" alt="UC Dash Logo" style="float: right;" width="50" height="50">
+      <h1>Campus Dash (beta)</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="login">
+        <h2>Login</h2>
+        <p>Welcome to UC Dash, please login to your account. </p>
+		<form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required="">
+          <br><br>
+          <label for="pass">Password:</label>
+          <input type="text" id="pass" name="pass" required="">
+          <br><br>
+          <input type="submit" value="Login">
+        </form>
+	  </section>
+      
+	  <section id="register">
+        <h2>Register</h2>
+        <p>If you are a new user, please register your account.   </p>
+		<form action= "{{ url_for('register') }}">
+          <input type="submit" value="Register">
+        </form>
+	  </section>
+	  
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email us at <a href="mailto:mabonmn@mail.uc.edu">mabonmn@mail.uc.edu</a> for more information</p>
+      </section>
+    </main>
+    <footer>
+      <p>© Copyright 2023</p>
+    </footer>
+  
+
+</body></html>
