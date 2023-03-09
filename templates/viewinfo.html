@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Your info {% endblock %}</h1>
+    {% for user in users %}
+        <div class='user'>
+            <h3>Username:</h3>
+            <p>{{ user['username'] }}</p>
+            <h3>Password:</h3>
+            <p>{{ user['password'] }}</p>
+            <h3>First name:</h3>
+            <p>{{ user['firstname'] }}</p>
+            <h3>Last name:</h3>
+            <p>{{ user['lastname'] }}</p>
+            <h3>Email:</h3>
+            <p>{{ user['email'] }}</p>
+            <h3>Number of words in file</h3>
+            <p>{{ num_words }}</p>
+            <h3>Download file</h3>
+            <a href="{{ url_for('download') }}">Download</a>
+        </div>
+    {% endfor %}
+{% endblock %}
