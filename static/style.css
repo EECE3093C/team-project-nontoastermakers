@@ -1,0 +1,151 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #FF0000;
+  color: white;
+  padding: 20px;
+  animation: headerFadeIn 1s ease-out;
+}
+h1 {
+  margin: 0;
+  animation: headerSlideIn 1s ease-out;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FF0000;
+  overflow: hidden;
+  animation: navFadeIn 1s ease-out;
+}
+nav li {
+  float: left;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  animation: navLinkFadeIn 1s ease-out;
+}
+nav a:hover {
+  background-color: ##FF0000;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  animation: mainFadeIn 1s ease-out;
+}
+section {
+  margin-bottom: 20px;
+}
+h2 {
+  color: #FF0000;
+  animation: sectionFadeIn 1s ease-out;
+}
+
+/* Form styles */
+form {
+  display: inline-block;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+input[type="text"],
+input[type="email"],
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px #ccc;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  background-color: #FF0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  animation: buttonFadeIn 1s ease-out;
+}
+
+/* Footer styles */
+footer {
+  background-color: #FF0000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  animation: footerFadeIn 1s ease-out;
+}
+
+/* Animations */
+@keyframes headerSlideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes headerFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes navLinkFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes navFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes sectionFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes buttonFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }}
